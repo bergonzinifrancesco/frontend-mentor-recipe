@@ -9,7 +9,7 @@ export default function Home() {
         optionally filled with your choice of cheese, vegetables, or meats.
       </p>
       <section class="flex flex-col bg-violet-50 w-full h-fit p-6 rounded-md gap-2">
-        <h3 class="text-rose-800 font-sans font-semibold text-lg"> Preparation time</h3>
+        <h2 class="text-rose-800 font-sans font-semibold text-lg"> Preparation time</h2>
         <ul class="list-disc list-outside gap-2 flex flex-col mx-4">
           <ComplexLineItem header="Total" content="Approximately 10 minutes" />
           <ComplexLineItem header="Preparation" content="5 minutes" />
@@ -45,8 +45,8 @@ export default function Home() {
         <table class="table-fixed items-center">
           <thead>
             <tr>
-              <th class="w-1/2"/>
-              <th class="w-1/2"/>
+              <td class="w-1/2"/>
+              <td class="w-1/2"/>
             </tr>
           </thead>
           <tbody>

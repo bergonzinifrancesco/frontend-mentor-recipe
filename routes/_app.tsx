@@ -11,7 +11,7 @@ export default function App({ Component }: PageProps) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet" />
       </head>
-      <main class="flex flex-col bg-rose-200 justify-center items-center">
+      <main class="flex flex-col bg-sand-200 justify-center items-center p-10">
         <Component />
       </main>
     </html>
